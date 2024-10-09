@@ -9,10 +9,10 @@ class PacketAnalyzer(tk.Tk):
         self.title("Network Packet Analyzer")
         self.geometry("600x400")
 
-        self.start_button = tk.Button(self, text="Start Capturing", command=self.start_capturing)
+        self.start_button = tk.Button(self, text="Start Capturing", font=("Arial",12), command=self.start_capturing)
         self.start_button.pack(pady=10)
 
-        self.stop_button = tk.Button(self, text="Stop Capturing", command=self.stop_capturing, state=tk.DISABLED)
+        self.stop_button = tk.Button(self, text="Stop Capturing", font=("Arial",12),  command=self.stop_capturing, state=tk.DISABLED)
         self.stop_button.pack(pady=10)
 
         self.output_area = scrolledtext.ScrolledText(self, wrap=tk.WORD)
