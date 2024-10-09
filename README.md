@@ -9,16 +9,8 @@ The Network Packet Analyzer is a lightweight tool designed to capture, analyze, 
 - Capture live network traffic.
 - Analyze and inspect packet headers (Ethernet, IP, TCP, UDP, etc.).
 - Filter captured packets by protocols, source/destination IP, ports, and more.
-- Save captured packets for offline analysis (in formats like pcap).
-- Support for multiple network interfaces.
 - Real-time packet statistics and visualization.
 
-
-## Usage
-
-- Once the tool is running, select the network interface you wish to monitor.
-- Start capturing packets and apply filters as needed.
-- View packet details and export captured data for further analysis.
 
 ## Dependencies
 
